@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Piazza Keyboard Shortcut",
+  "description": "Piazza Keyboard Shortcut Extension",
+  "version": "1.0",
+
+  "browser_action": {
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "content_scripts":[
+    {
+      "matches": ["*://piazza.com/class/*"],
+      "js": ["jquery-1.11.3.min.js","keymaster.js", "piazzaKeyboardShortcuts.js"]
+    }
+  ]
+}
