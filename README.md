@@ -4,7 +4,7 @@ This is a Piazza.com keyboard shortcuts chrome extension. These are the shortcut
 
 
 Shortcut | function
-—- | —-
+--- | ---
 k | next post
 j | previous post
 
