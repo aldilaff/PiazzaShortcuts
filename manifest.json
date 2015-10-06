@@ -4,9 +4,6 @@
   "name": "Piazza Keyboard Shortcut",
   "description": "Piazza Keyboard Shortcut Extension",
   "version": "1.0",
-
-  "browser_action": {
-  },
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
